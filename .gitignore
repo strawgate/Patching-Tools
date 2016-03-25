@@ -236,5 +236,5 @@ _Pvt_Extensions
 .fake/
 
 #Unignore Downloads
-!Downloads/
-!Downloads/CreateProcess/
+!Downloads/**/*
+!Downloads/CreateProcess/**/*
