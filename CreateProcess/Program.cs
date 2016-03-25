@@ -11,7 +11,7 @@ namespace CreateProcess
             STARTUPINFO si = new STARTUPINFO();
             si.lpDesktop = @"winsta0\InstallerDesktop";
             
-            CreateProcess(args[0], '"' + args[0] + '"' + args[1], IntPtr.Zero, IntPtr.Zero, false, 0, IntPtr.Zero, null, ref si, out pi);
+            CreateProcess(args[0], '"' + args[0] + '"' + " " + args[1], IntPtr.Zero, IntPtr.Zero, false, 0, IntPtr.Zero, null, ref si, out pi);
         }
 
         [DllImport("kernel32.dll")]
