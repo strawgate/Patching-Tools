@@ -237,7 +237,4 @@ _Pvt_Extensions
 
 #Unignore Downloads
 !Downloads/
-!/Downloads/
-!/Downloads/*
-!/Downloads/CreateProcess/
-!/Downloads/CreateProcess/*
+!Downloads/CreateProcess/
