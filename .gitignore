@@ -239,4 +239,5 @@ _Pvt_Extensions
 !Downloads/
 !/Downloads/
 !/Downloads/*
-!/Downloads/CreateProcess
+!/Downloads/CreateProcess/
+!/Downloads/CreateProcess/*
